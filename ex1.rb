@@ -1,0 +1,8 @@
+def print_first
+  var = "joe"
+  var=ARGV[0]
+  return var
+end
+
+var= print_first
+puts(var)
